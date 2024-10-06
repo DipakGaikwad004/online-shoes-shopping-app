@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    
+    #img2 {
+        height: 150px;
+        width: 150px;
+        background-size: cover;
+        /* background-color: red; */
+        background-position: center;
+        border: 2px solid gray;
+        border-radius: 10px;
+        box-shadow: 3px 3px 9px gray;
+
+    }
+
+    #imgw {
+        height: 150px;
+        width: 150px;
+        padding: 0px 10px;
+        background-size: cover;
+        border: 2px solid gray;
+        border-radius: 10px;
+        /* background-color: red; */
+        background-position: center;
+        box-shadow: 3px 3px 9px gray;
+
+    }
+
+    .second_section {
+        /* background-color: gray; */
+        width: 100%;
+        height: 250px;
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 50px;
+        align-items: baseline;
+        margin-top: 5%;
+    }
+
+    .second_section2 {
+        /* background-color: gray; */
+        width: 100%;
+        height: 250px;
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 50px;
+        align-items: baseline;
+        
+    }
+
+    #title {
+        color: rgb(0, 0, 0);
+        text-transform: capitalize;
+        font-weight: 600;
+        font-family: Georgia, Times, 'Times New Roman', serif;
+        font-size: 15px;
+        /* background-color: #ffffff; */
+        text-align: center;
+        margin-top: 100px;
+        margin-bottom: 20px;
+    }
+
+    .section_three {
+        width: 100%;
+        height: 300px;
+        background-color: #000000;
+        margin-top: 40px;
+        display: flex;
+        justify-content: center;
+        padding: 50px;
+        gap: 400px;
+        align-items: center;
+       
+    }
+
+    .section_three h1{
+       z-index: 3;
+        color: #fff;
+        position: absolute;
+        margin-left: 40%;
+        
+    }
+    .text_main {
+        width: 100%;
+        height: 70px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        position: absolute;
+        margin-top: 150px;
+
+    }
+
+
+    .text {
+        width: 150px;
+        height: 70px;
+        /* border: 2px solid black; */
+        /* background-color: pink; */
+        padding: 10px;
+        color: gray;
+        text-align: center;
+    }
+
+    #cart {
+        margin-top: 10px;
+        font-size: 15px;
+        border-radius: 10px;
+        padding: 5px 10px;
+        border: 2px solid gray;
+        background-color: rgb(195, 200, 195);
+        transition: 0.3s ease-in;
+        font-weight: 600;
+
+
+    }
+
+    #cart a {
+        text-decoration: none;
+        color: #000000;
+    }
+
+    #cart a i {
+        margin-right: 5px;
+        color: #000000;
+    }
+
+    #cart:hover {
+        background-color: #e6e3e3;
+        transition: 0.3s ease-out;
+        border: 2px solid rgb(166, 171, 165);
+        color: rgb(22, 80, 5);
+    }
+
+    #img4 {
+        color: #000000;
+        margin-left: 100px;
+        margin-top: 0px;
+        height: 300px;
+        width: 400px;
+        margin-right: 50%;
+        /* transform: rotate(15deg); */
+        margin-bottom: 50px;
+    }
+
+    .box2 {
+        width: 80px;
+        height: 80px;
+        background-color: #fff;
+        border: 2px solid black;
+        margin-top: 300px;
+        gap: 10px;
+        background-color: red;
+
+
+    }
+
+   .section_three h1{
+    color: rgb(0, 211, 14);
+    margin-bottom: 6%;
+    font-size: 40px;
+   }
+
+   .section_three h2{
+    color: rgb(255, 255, 255);
+    z-index: 5;
+    margin-left: 40%;
+    margin-top: 3%;
+    position: absolute;
+    text-align: center;
+   }
+
+   #Cat{
+    font-size: 20px;
+    text-transform: capitalize;
+    text-align: center;
+    margin-bottom: 30px;
+   }
+
+
+   #trend{
+    font-size: 50px;
+    text-transform: capitalize;
+    text-align: center;
+   }
+
+  
+
+
+</style>
+<body>
+    <h1 id="trend">Trending Shoes</h1>
+    <h2 id="Cat">Choose Your Category</h2>
+    <div class="second_section">
+        <div class="box" id="one"><img  src="basketball.png" id="img2" /></div>
+        <div class="box" id="two"><img src="cap.png" id="img2" /></div>
+        <div class="box" id="three"><img src="bands.png" id="img2" /></div>
+        <div class="box" id="four"><img src="jacket.png" id="imgw" /></div>
+        <div class="box" id="five"><img src="bagpack.png" id="img2" /></div>
+        <div class="box" id="six"><img src="tshirt.png" id="img2" /></div>
+        <div class="box" id="seven"><img src="watch.png" id="img2" /></div>
+        <div class="text_main">
+            <div class="text">
+                <h4 id="t1">nike air jordens<br>$200.14<br><button id="cart"><a><i
+                                class="fa-solid fa-cart-shopping"></i>Add To Cart</a></button></h4>
+            </div>
+            <div class="text">
+                <h4 id="t2">nike air jordens<br>$200.14<br><button id="cart"><a><i
+                                class="fa-solid fa-cart-shopping"></i>Add To Cart</a></button></h4>
+            </div>
+            <div class="text">
+                <h4 id="t3">nike air jordens<br>$200.14<br><button id="cart"><a><i
+                                class="fa-solid fa-cart-shopping"></i>Add To Cart</a></button></h4>
+            </div>
+            <div class="text">
+                <h4 id="t4">nike air jordens<br>$200.14<br><button id="cart"><a><i
+                                class="fa-solid fa-cart-shopping"></i>Add To Cart</a></button></h4>
+            </div>
+            <div class="text">
+                <h4 id="t5">nike air jordens<br>$200.14<br><button id="cart"><a><i
+                                class="fa-solid fa-cart-shopping"></i>Add To Cart</a></button></h4>
+            </div>
+            <div class="text">
+                <h4 id="t6">nike air jordens<br>$200.14<br><button id="cart"><a><i
+                                class="fa-solid fa-cart-shopping"></i>Add To Cart</a></button></h4>
+            </div>
+            <div class="text">
+                <h4 id="t7">nike air jordens<br>$200.14<br><button id="cart"><a><i
+                                class="fa-solid fa-cart-shopping"></i>Add To Cart</a></button></h4>
+            </div>
+        </div>
+</div>
+        
+    <div class="second_section2">
+        <div class="box" id="one"><img  src="basketball.png" id="img2" /></div>
+        <div class="box" id="two"><img src="cap.png" id="img2" /></div>
+        <div class="box" id="three"><img src="bands.png" id="img2" /></div>
+        <div class="box" id="four"><img src="jacket.png" id="imgw" /></div>
+        <div class="box" id="five"><img src="bagpack.png" id="img2" /></div>
+        <div class="box" id="six"><img src="tshirt.png" id="img2" /></div>
+        <div class="box" id="seven"><img src="watch.png" id="img2" /></div>
+        <div class="text_main">
+            <div class="text">
+                <h4 id="t1">nike air jordens<br>$200.14<br><button id="cart"><a><i
+                                class="fa-solid fa-cart-shopping"></i>Add To Cart</a></button></h4>
+            </div>
+            <div class="text">
+                <h4 id="t2">nike air jordens<br>$200.14<br><button id="cart"><a><i
+                                class="fa-solid fa-cart-shopping"></i>Add To Cart</a></button></h4>
+            </div>
+            <div class="text">
+                <h4 id="t3">nike air jordens<br>$200.14<br><button id="cart"><a><i
+                                class="fa-solid fa-cart-shopping"></i>Add To Cart</a></button></h4>
+            </div>
+            <div class="text">
+                <h4 id="t4">nike air jordens<br>$200.14<br><button id="cart"><a><i
+                                class="fa-solid fa-cart-shopping"></i>Add To Cart</a></button></h4>
+            </div>
+            <div class="text">
+                <h4 id="t5">nike air jordens<br>$200.14<br><button id="cart"><a><i
+                                class="fa-solid fa-cart-shopping"></i>Add To Cart</a></button></h4>
+            </div>
+            <div class="text">
+                <h4 id="t6">nike air jordens<br>$200.14<br><button id="cart"><a><i
+                                class="fa-solid fa-cart-shopping"></i>Add To Cart</a></button></h4>
+            </div>
+            <div class="text">
+                <h4 id="t7">nike air jordens<br>$200.14<br><button id="cart"><a><i
+                                class="fa-solid fa-cart-shopping"></i>Add To Cart</a></button></h4>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
